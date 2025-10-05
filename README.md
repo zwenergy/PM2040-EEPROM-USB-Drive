@@ -8,7 +8,7 @@ Connecting it to a computer, the PM2040 will act as a mass storage device, from 
 
 **Note: All slots are always shown, even when nothing have been backed up to them yet.**
 
-## Writing
+## Writing / Restore
 Currently only the **first slot** can be overwritten via USB.
 When any EEPROM backup is copied to the cart (...or more exactly any file which is exactly 8192 bytes large), the first EEPROM slot is overwritten.
 The PM2040 is then automatically ejected, while internally the EEPROM slot is re-flashed.
