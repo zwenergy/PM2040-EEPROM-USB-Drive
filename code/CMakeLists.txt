@@ -1,9 +1,13 @@
 cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_C_STANDARD 11)
-
 set(PICO_PLATFORM rp2040)
 
+# Uncomment when using a 16 MB variant
+#set(PICO_BOARD_HEADER_DIRS ${CMAKE_SOURCE_DIR})
+#set(PICO_BOARD pico_16MB)
+
+# Comment when using a 16 MB variant
 set(BOARD pico_sdk)
 
 include(pico_sdk_import.cmake)

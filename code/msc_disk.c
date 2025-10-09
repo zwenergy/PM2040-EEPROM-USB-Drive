@@ -27,9 +27,6 @@
 #include "tusb_config.h"
 #include <stdio.h>
 
-// 16 MB cart?
-//#define PICO_FLASH_SIZE_BYTES (16 * 1024 * 1024)
-
 #include "hardware/flash.h"
 #include "pico/time.h"
 
