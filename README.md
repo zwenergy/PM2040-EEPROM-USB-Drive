@@ -14,6 +14,11 @@ When any EEPROM backup is copied to the cart (...or more exactly any file which 
 The PM2040 is then automatically ejected, while internally the EEPROM slot is re-flashed.
 After it, the PM2040 will be connected again.
 
+## Managing Single Save Games
+The EEPROM file is a complete image of the internal EEPROM memory, so it contains up to 6 save games.
+To further manage single save games, export, merge and create new EEPROM images for the Pokemon mini, you can use a very handy tool made by *thx*:
+[Pokémon Mini EEPROM Manager](https://pokeminisaves.github.io/) .
+
 ## Firmware choice
 For "regular" PM2040 carts with 2 MB Flash chips, use the 2 MB version.
 For PM2040 carts with 16 MB Flash chips, use the 16 MB version.
